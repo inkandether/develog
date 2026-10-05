@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <title>Tabby Trails devlog</title><link>https://devlog.tabbytrails.gg</link><description>A cozy cat game, being made in the open. Early, playable, and glad of feedback.</description><language>en</language>
+<item><title>The same spot, every day for two weeks</title><link>https://devlog.tabbytrails.gg/2026-10-05-two-weeks/</link><guid isPermaLink="true">https://devlog.tabbytrails.gg/2026-10-05-two-weeks/</guid><pubDate>Mon, 05 Oct 2026 17:00:00 GMT</pubDate><description>&lt;p&gt;This is the first post of the devlog. The plan is a short one every few days, about whatever is easiest to show.&lt;/p&gt;
+&lt;p&gt;I started Tabby Trails on September 21. Back then it was a cat in a field, in a window 256 pixels wide, with a rock to dig at.&lt;/p&gt;
+&lt;p&gt;I wanted to see what two weeks of work looks like, so I wrote a script. It checks out the last commit of each day, starts that version of the game, drops a new cat into the same world and takes a screenshot. The world is generated from a seed, so the same seed gives the same place every time. Mostly.&lt;/p&gt;
+&lt;p&gt;The clip above is those screenshots in order. About a week in, the field turns into a village, because villages got added and this cat happens to wake up in one. On October 4 the houses turn into acorns, and I'm keeping those.&lt;/p&gt;
+&lt;p&gt;The street lamps and windows turn on at night now:&lt;/p&gt;
 
+&lt;p&gt;And there are seasons:&lt;/p&gt;
+
+&lt;p&gt;It's an early beta and you can &lt;a href=&quot;https://tabbytrails.gg&quot;&gt;play it in the browser&lt;/a&gt;. If something's weird or broken, I'd like to hear about it. No rush.&lt;/p&gt;
+&lt;h3&gt;Also lately&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Crickets purr instead of click.&lt;/li&gt;&lt;li&gt;Caves have springs, lifts, ferries and crumbling bridges.&lt;/li&gt;&lt;li&gt;You can craft a raccoon suit. Also a frog suit.&lt;/li&gt;&lt;li&gt;Sproutlings: little wind-up helpers you program by stacking pieces.&lt;/li&gt;&lt;li&gt;No more ghost cats after a server restart.&lt;/li&gt;&lt;/ul&gt;</description></item>
 </channel></rss>
