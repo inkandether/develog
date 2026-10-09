@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tabby Trails devlog</title><meta name="description" content="A cozy cat game, being made in the open. Early, playable, and glad of feedback.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Tabby Trails devlog">
+<meta property="og:title" content="Tabby Trails devlog"><meta property="og:description" content="A cozy cat game, being made in the open. Early, playable, and glad of feedback.">
+<link rel="canonical" href="https://devlog.tabbytrails.gg/"><meta property="og:url" content="https://devlog.tabbytrails.gg/">
+<meta property="og:image" content="https://tabbytrails.gg/icons/share.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Tabby Trails devlog" href="feed.xml">
 <style>
   :root { --bg: #f6f1e7; --ink: #2a2230; --soft: #6f6577; --line: #e3dccd; --accent: #c8641e; }
@@ -23,6 +27,26 @@
 <body><main>
   <div class="top"><a class="name" href="./">Tabby Trails · devlog</a><span><a href="https://tabbytrails.gg">Play it</a> · <a href="feed.xml">RSS</a></span></div>
   <p class="tagline">A cozy cat game, being made in the open. Early, playable, and glad of feedback.</p>
+<article>
+  <time datetime="2026-10-09">October 9, 2026</time>
+  <h2><a href="2026-10-09-puffcap/">A mushroom, a very large cat, and a thank-you to a certain plumber</a></h2>
+  
+  <p>Some nights in Tabby Trails, a little way off in the grass, there's a pink mushroom that wasn't there the night before. It glows a bit. If your cat walks over and eats it, the cat puffs up to six times its size, and for the next sixteen seconds the forest has a problem.</p>
+<figure><video src="media/2026-10-09-puffcap/puffcap-giant-wide.mp4" controls loop muted playsinline preload="metadata" aria-label="A pixel-art game seen from above, at dusk, where a sandy shore meets a forest. A small orange tabby cat walks up to a glowing pink mushroom in the grass and eats it. The cat swells with a wobble to six times its size, with a thin pink bar under its paws counting down. It steps onto an outcrop of red sandstone and jumps on it three times; the rock breaks apart under it and the pieces fly off. Then it turns and walks into the forest, and each tree its paws come down on tips over and falls, leaving a line of stumps and big dark pawprints behind it. Pieces of sandstone, leaves and wood fly up to the hotbar in the top left corner of the screen, where the wood count climbs to 21. The word MROW! shakes above its head. It walks on, hiccups, and pops back into a small cat standing among the stumps."></video></figure>
+<p>It's called a puffcap, and if a mushroom that makes you big sounds familiar, it should. A certain Italian plumber worked this out decades ago, and this is my small thank-you to him. The radio even speeds up to double tempo while you're big, the way his music hurries when time is running short, because it didn't feel right to borrow the mushroom and leave that behind.</p>
+<p>For a while the giant cat was a polite giant. It stepped over the trees and everything was exactly as it had been once it shrank again, which was sweet, but it never quite felt like being enormous. So as of this week the paws count. Walk through a forest and the trees go over one after another, each falling away from the cat, and you come out the far side with a trail of stumps behind you and a hotbar full of wood. Rock holds out a little longer: it cracks under every step, and a stomp or two is what finally breaks a boulder apart.</p>
+<h3>How the trampling works</h3>
+<p>The nice surprise was how little of this needed building. The cat can already chop a tree and mine a rock with its claws, and all of that already existed: the tree leaning and going over, the stump it leaves, the wood flying to your hotbar, the way a friend playing with you sees it happen. A giant's footstep reuses every bit of it. Each time a paw comes down, the game looks at the patch of ground under the cat (it's the same oval as its shadow, about six tiles wide) and hits whatever is growing or lying wild in there, as if the cat had swung at each thing itself.</p>
+<p>A tree goes in one hit. Rock takes one blow from a footstep and five from a stomp, which is why you can stroll across an outcrop and only chip it but two good jumps will break granite out. And because these are the same world changes a normal cat makes, there was nothing new to send to friends. Their game hears &quot;this tree was chopped&quot; just as it always has, and the stump grows back in three days like any other.</p>
+<p>Two things needed some care. Ten trees falling at once shouldn't make ten sounds, so only the first tree, the first bush and the first rock under each step get a voice and the rest go quietly. And the tiny freeze the game does when you break something, which feels good on a single rock, turned walking through a forest into a stutter. Now only a stomp gets it.</p>
+<p>The giant still leaves alone anything somebody built. Fences, walls, doors, furniture and everything belonging to a village get stepped over as before, so nobody loses a house to a friend who found a mushroom.</p>
+<h3>Getting small again</h3>
+<p>There was one problem from the first version that I'm still fond of. A giant can walk over anything, including the sea, so sixteen seconds later it might be standing somewhere a normal cat can't be. Before it shrinks, the game checks whether a small cat could stand right there, and if not it finds the nearest tile where one could and quietly slides the cat over to it while it shrinks. In the last three seconds the giant hiccups once a second and four little pink corners blink on the spot where it's going to land, so the pop doesn't catch you out halfway across a pond.</p>
+<p>If you'd like to try it, the game <a href="https://tabbytrails.gg">runs in the browser</a>. Head out into the plains, a forest or the savanna after dark and look for something pink in the grass. Playing on your own you'll find one puffcap; with friends a ring of four comes up, one each, and three small cats can ride on a giant's back.</p>
+<h3>Also lately</h3>
+<ul><li>A new cat now arrives hanging from a bunch of balloons, and one of them bursts.</li><li>The forge, the music hall, the greenhouse and every cottage can be walked into, and they're all round rooms inside.</li><li>Wind blows across the grass, and tall grass bends with it and parts around the cats.</li><li>Water and lava each move as one surface now, with foam where the water meets the shore.</li><li>The sproutling has a wind-up key on its back that turns while its spring runs down.</li></ul>
+  <p class="more">Also on <a href="https://bsky.app/profile/tabbytrails.bsky.social/post/3mxhcyjg2zu2u">bluesky</a>, <a href="https://mastodon.social/@tabbytrails/117411727607112854">mastodon</a></p>
+</article>
 <article>
   <time datetime="2026-10-06">October 6, 2026</time>
   <h2><a href="2026-10-06-skateboard/">I gave the cats skateboards</a></h2>
