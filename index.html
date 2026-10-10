@@ -28,6 +28,27 @@
   <div class="top"><a class="name" href="./">Tabby Trails · devlog</a><span><a href="https://tabbytrails.gg">Play it</a> · <a href="feed.xml">RSS</a></span></div>
   <p class="tagline">A cozy cat game, being made in the open. Early, playable, and glad of feedback.</p>
 <article>
+  <time datetime="2026-10-10">October 10, 2026</time>
+  <h2><a href="2026-10-10-sproutling/">A wind-up turnip that takes orders</a></h2>
+  
+  <p>At the end of a new cat's welcome to Tabby Trails, the mayor hands it a turnip. It has two feet, a leaf on its head and a gold key in its back, and if you tell it what to do, in very small words, it will go and do it while you get on with something else.</p>
+<figure><video src="media/2026-10-10-sproutling/sproutling-chop-near.mp4" controls loop muted playsinline preload="metadata" aria-label="A pixel-art game seen from above, on a spring morning where a sandy beach with palm trees meets a forest. An orange tabby cat stands beside a small white-and-purple turnip on two feet with a leaf on its head. The name PIP floats over the turnip, a sign above that reads CLICK ME TO GO!, and a dotted line on the ground runs ahead of it through the trees. The sign goes and the turnip sets off along the line by itself. At each tree in its way it stops and hops, chips of wood fly, and the tree is gone: an oak and two birches. At the end of the line it turns round and walks back to the cat, and the sign comes up again. The cat picks it up, and a string of wooden blocks flies from where it stood up towards the corner of the screen."></video></figure>
+<p>They're called sproutlings. This one is Pip, which is the name the game gives your first one as soon as it has something to do (Bean and Spud are next in line). Pip's whole job in that clip is five commands long:</p>
+<figure><img src="media/2026-10-10-sproutling/sproutling-screen-wide.png" alt="The sproutling's screen in the game. At the top a green Go! button and the name Pip in yellow. Under it a stack of rounded, coloured blocks like puzzle pieces: a blue block reading Repeat 8 times, and inside it a purple block reading If blocked ahead holding two green blocks that each say Chop, then an orange block that says Forward. Dashed + Add command buttons mark where more could go. On the right, a list headed It has collected says Nothing yet." loading="lazy"></figure>
+<p>Repeat eight times: if something is in the way, chop it, then chop what's left of it, then take a step. A tree takes one chop and its stump takes the other, which is why there are two. When the commands run out a sproutling always walks back to where it was set down, and when the cat picks it up, everything in its bag flies to the chest after it.</p>
+<p>One winding of the key is good for 100 steps and 20 swings, so a single turnip can only turn over so much of the countryside before it droops and has to be wound again. I like that about it.</p>
+<h3>How it thinks</h3>
+<p>The game flattens the stack of blocks into a plain list of steps and runs it on a machine so small that its whole state is a few numbers. So a sproutling halfway down a row can be saved with the world, or handed to the room when friends are playing, and it carries on from the step it was on.</p>
+<p>The same machine can run without touching the world, and that gets used twice. The dotted line in front of Pip is the game running the program in its head to show where it would go. And when a program plants or paves, the sproutling runs it in its head first to count the seeds or pebbles it'll get through, and takes that many from your chest when you wind it up. Nobody has to pack a turnip's lunch.</p>
+<p>The blocks were the one place I gave up on pixels. The game's bitmap font is fine for a hotbar and miserable for a screen full of commands, so the program is ordinary web text laid over the canvas, and everything around it is still drawn by the game.</p>
+<h3>This week</h3>
+<p>The screen used to have a little practice field for trying a program out. It's gone: to see what a program does, you set it going. A sproutling that's ready now wears a sign saying how to start it, since nothing about a turnip says &quot;click me&quot;. And beacons have names, so a sproutling can be sent to any beacon standing, yours or a friend's, by what it's called.</p>
+<p>If you'd like to boss a turnip about, the game <a href="https://tabbytrails.gg">runs in the browser</a>, and the mayor will give you yours.</p>
+<h3>Also lately</h3>
+<ul><li>The village has a bakery with a brick oven: wheat into dough, and six things to bake, from bread to a birthday cake.</li><li>Cave mouths come in five shapes now, and each one dresses for the ground it's on: moss on grass, icicles on the tundra.</li><li>A cottage the village built opens onto a round room, with eight ways of arranging the furniture.</li><li>There's a note card in the pause menu for telling me what's broken.</li><li>The marker that points to your village is a little well instead of a house.</li></ul>
+  <p class="more">Also on <a href="https://bsky.app/profile/tabbytrails.bsky.social/post/3mxk5rqyn4w27">bluesky</a>, <a href="https://mastodon.social/@tabbytrails/117418114196274971">mastodon</a></p>
+</article>
+<article>
   <time datetime="2026-10-09">October 9, 2026</time>
   <h2><a href="2026-10-09-puffcap/">A mushroom, a very large cat, and a thank-you to a certain plumber</a></h2>
   
